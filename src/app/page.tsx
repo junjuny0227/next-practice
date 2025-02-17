@@ -3,7 +3,6 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 
-// Post 데이터의 타입 정의
 interface Post {
   userId: number;
   id: number;
